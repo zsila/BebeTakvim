@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/siyah"
+        android:text="TARİH"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:src="@drawable/uyudu"
+        android:id="@+id/ekle3"
+        android:visibility="invisible"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="74dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:src="@drawable/uyandi"
+        android:visibility="invisible"
+        android:id="@+id/ekle4"
+        android:layout_alignTop="@+id/ekle3"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView2"
+        android:background="@drawable/borderyellow"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ekle3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:textSize="20dp"
+        android:hint="uyudu"
+        android:layout_marginLeft="10dp"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText8"
+        android:layout_alignRight="@+id/ekle3"
+        android:layout_alignEnd="@+id/ekle3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:hint="uyandı"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/ekle4"
+        android:layout_alignStart="@+id/ekle4"
+        android:layout_alignRight="@+id/ekle4"
+        android:layout_alignEnd="@+id/ekle4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:layout_alignTop="@+id/ekle4"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView10"
+        android:src="@drawable/ekle_s"
+        android:visibility="invisible"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_toRightOf="@+id/editText8" />
+
+
+
+</RelativeLayout>

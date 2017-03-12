@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Choose a language"
+        android:textColor="@color/siyah"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:paddingTop="50dp"/>
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Türkçe"
+        android:visibility="invisible"
+        android:id="@+id/checkedTextView"
+        android:paddingTop="10dp"
+        android:textColor="@color/siyah"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:visibility="invisible"
+        android:id="@+id/checkedTextView2"
+        android:paddingTop="30dp"
+        android:textColor="@color/siyah"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

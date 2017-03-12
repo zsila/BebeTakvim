@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sayar.sila.bebetakvim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.CalendarActivity"  android:launchMode="singleInstance"></activity>
+        <activity android:name=".activities.FoodActivity"  android:launchMode="singleInstance"></activity>
+        <activity android:name=".activities.SleepActivity"  android:launchMode="singleInstance"></activity>
+        <activity android:name=".activities.DiaperActivity"  android:launchMode="singleInstance"></activity>
+        <activity android:name=".activities.ControlActivity"  android:launchMode="singleInstance"></activity>
+        <activity android:name=".activities.ReportActivity"  android:launchMode="singleInstance"></activity>
+        <activity android:name=".activities.HealthActivity"  android:launchMode="singleInstance"></activity>
+        <activity android:name=".activities.HealthDetail"  android:launchMode="singleInstance"></activity>
+        <activity android:name="org.achartengine.GraphicalActivity"/>
+        <activity android:name=".activities.OptionsActivity"  android:launchMode="singleInstance"  android:theme="@style/SplashTheme"></activity>
+
+    </application>
+
+</manifest>

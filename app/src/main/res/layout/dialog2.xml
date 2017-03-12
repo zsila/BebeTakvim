@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="93dp"
+        android:layout_marginStart="93dp" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker"
+        android:layout_alignTop="@+id/numberPicker1"
+        android:layout_toRightOf="@+id/numberPicker1"
+        android:layout_toEndOf="@+id/numberPicker1"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       ,"
+        android:id="@+id/textView12"
+        android:layout_alignBottom="@+id/numberPicker"
+        android:layout_toRightOf="@+id/numberPicker1"
+        android:layout_toEndOf="@+id/numberPicker1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamam"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/numberPicker1"
+        android:layout_alignStart="@+id/numberPicker1"
+        android:layout_marginBottom="93dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İptal"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignRight="@+id/numberPicker"
+        android:layout_alignEnd="@+id/numberPicker" />
+
+</RelativeLayout>

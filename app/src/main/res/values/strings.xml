@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BebeTakvim</string>
+    <string name="dialog_ok">Tamam</string>
+    <string name="dialog_cancel">İptal</string>
+    <string name="font">fonts/CaviarDreams_BoldItalic.ttf</string>
+    <string name="diaper1">Islak</string>
+    <string name="diaper2">Kirli</string>
+    <string name="add">EKLE</string>
+    <string name="del">SİL</string>
+    <string name="verigir">Veri giriniz!</string>
+    <string name="record">Kaydedildi</string>
+
+    <string-array name="food_array">
+        <item>Çorba</item>
+        <item>Muhallebi</item>
+        <item>Mama</item>
+        <item>Süt</item>
+        <item>Et</item>
+        <item>Sebze</item>
+        <item>Meyve</item>
+        <item>Bisküvi</item>
+        ...
+    </string-array>
+
+    <string-array name="month_array">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+        ...
+    </string-array>
+
+</resources>

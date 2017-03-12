@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.OptionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/gridLayout">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_weight="0.25"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/biberon" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_weight="0.25"
+            android:layout_margin="4dp"
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/sleep"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_weight="0.25"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/bez"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/doc" />
+    </LinearLayout>
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gridLayout"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
